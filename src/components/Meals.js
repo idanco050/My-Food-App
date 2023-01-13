@@ -1,31 +1,31 @@
-import {Fragment} from 'react'
+
 import MealItem from './MealItem'
 import classes from './Meals.module.css'
-import Card from './Card'
+
 const DUMMY_MEALS = [
     {
       id: 'm1',
-      name: 'Sushi',
-      description: 'Finest fish and veggies',
-      price: 22,
+      name: 'Gyoza',
+      description: "Man Tan Tan's famous gyoza.",
+      price: 47,
     },
     {
       id: 'm2',
-      name: 'Schnitzel',
-      description: 'A german specialty!',
-      price: 16,
+      name: "Gasmino's kebab",
+      description: 'A kebab served in a pita.',
+      price: 32,
     },
     {
       id: 'm3',
-      name: 'Barbecue Burger',
-      description: 'American, raw, meaty',
-      price: 12,
+      name: 'Vitrina Burger',
+      description: 'With cheese and caramelized onions.',
+      price: 55,
     },
     {
       id: 'm4',
-      name: 'Green Bowl',
-      description: 'Healthy...and green...',
-      price: 18,
+      name: 'Shawarma Hkosem',
+      description: 'With tahini and amaba...',
+      price: 51,
     },
   ];
 
