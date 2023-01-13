@@ -28,7 +28,7 @@ return(
 </ul>
 <div className ={classes.total}>
 <span>Total Amount</span>
-<span>{amonut}</span>
+<span>${amonut}</span>
 </div>
 <div className ={classes.actions}>
 <button className={classes['button--alt']} onClick= {props.hideCart}>Close</button>
